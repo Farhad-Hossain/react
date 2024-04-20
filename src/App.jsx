@@ -8,12 +8,19 @@ import MyComponent from './components/MyComponent.jsx';
 import OnChangeComponent from './components/OnChangeComponent.jsx';
 import ColorPicker from './components/ColorPicker.jsx';
 import CarComponent from './components/CarComponent.jsx';
+import UpdateArraysInState from './components/UpdateArraysInState.jsx';
+import UpdateArrayOfObject from './components/UpdateArrayOfObject.jsx';
+import UseEffectComponent from './components/UseEffectComponent.jsx';
+import DigitalClock from './components/DigitalClock.jsx';
 
 
 function App() {
   return (
     <>
-      <CarComponent />
+      <DigitalClock />
+      <DigitalClock />
+      <DigitalClock />
+      <DigitalClock />
     </>
   )
 }
