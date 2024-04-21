@@ -1,27 +1,18 @@
-import Card from './components/Card.jsx';
-import Button from './components/Button/Button.jsx'
-import Student from './components/Student.jsx';
-import UserGreeting from './components/UserGreeting.jsx'
-import List from './components/List.jsx';
-import ProfilePicture from './components/ProfilePicture.jsx';
-import MyComponent from './components/MyComponent.jsx';
-import OnChangeComponent from './components/OnChangeComponent.jsx';
-import ColorPicker from './components/ColorPicker.jsx';
-import CarComponent from './components/CarComponent.jsx';
-import UpdateArraysInState from './components/UpdateArraysInState.jsx';
-import UpdateArrayOfObject from './components/UpdateArrayOfObject.jsx';
-import UseEffectComponent from './components/UseEffectComponent.jsx';
-import DigitalClock from './components/DigitalClock.jsx';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Navbar from './pages/Navbar.jsx';
 
 
 function App() {
   return (
-    <>
-      <DigitalClock />
-      <DigitalClock />
-      <DigitalClock />
-      <DigitalClock />
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 export default App
