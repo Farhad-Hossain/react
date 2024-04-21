@@ -1,6 +1,9 @@
-const Home = () => {
+import Layout from "../Layout";
+import Page404 from "./Page404";
+
+const Home = ()=> {
     return (
-        <h1>This is Home Page</h1>
+        <Page404 />
     );
 }
 export default Home;
