@@ -20,9 +20,10 @@ const Navbar = ()=>{
                             <ul className="top-link">
                                 <li> <NavLink style={navLinkStyles} to="/">Home</NavLink> </li>
                                 <li> <NavLink style={navLinkStyles} to="/about">About</NavLink> </li>
+                                <li> <NavLink style={navLinkStyles} to="/products">Products</NavLink></li>
 
                                 <li>
-                                    <a href="#">Doctors</a>
+                                    <NavLink style={navLinkStyles} to="/users">Users</NavLink>
                                 </li>
                                 <li>
                                     <a href="#">Contact</a>
