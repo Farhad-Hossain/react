@@ -28,10 +28,9 @@ function App() {
           <Route path=':userId' element={<UserDetail />} />
           <Route path='admin' element={<Admin />} />
         </Route>
-        
         <Route path='*' element={<Page404/>} />
       </Routes>
-      </>
+    </>
   )
 }
 export default App

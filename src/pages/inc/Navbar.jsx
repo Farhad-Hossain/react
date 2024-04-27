@@ -26,7 +26,7 @@ const Navbar = ()=>{
                                     <NavLink style={navLinkStyles} to="/users">Users</NavLink>
                                 </li>
                                 <li>
-                                    <a href="#">Contact</a>
+                                    <NavLink style={navLinkStyles} to='/profile'>Profile</NavLink>
                                 </li>
                                 <li>
                                     <a href="#">FAQ</a>
